@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heart's Desire</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="RegForm.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+    <script language="javascript">
+    function WriteToFile(passForm) {
+      var fso = new ActiveXObject("Scripting.FileSystemObject");
+      var fileLoc = "E:\\Work\3rd Year 2nd Sem\Hearts Desire\sample.csv";
+      var file = fso.CreateTextFile(fileLoc, true);
+      file.writeline(passForm.ME.value + ',' +
+                     passForm.MI.value + ',' +
+					 passForm.MS.value + ',' +
+					 passForm.MA.value + ',' +
+					 passForm.FE.value + ',' +
+					 passForm.FI.value + ',' +
+					 passForm.FS.value + ',' +
+					 passForm.FA.value);
+      file.Close();
+      alert('File created successfully at location: ' + fileLoc);
+     }
+  </script>
+	
+</head>
+
+<body>
+<!---navigation bar-------->
+
+<section id="nav-bar">
+	<nav class="navbar navbar-expand-lg navbar-light">
+  		<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+
+  		<div class="collapse navbar-collapse" id="navbarNav">
+    		<ul class="navbar-nav ml-auto">
+      			<li class="nav-item">
+        				<a class="nav-link" href="#">Home</a>
+      			</li>
+      			<li class="nav-item">
+        				<a class="nav-link" href="#">About Us</a>
+      			</li>
+			    	<li class="nav-item">
+			        <a class="nav-link" href="#">Contact</a>
+			    </li>
+			    <a href="#" class="btn btn-signup">Sign Up</a>
+				<a href="#" class="btn btn-login">Log In</a>
+
+    		</ul>
+    		<div class="search-box">
+    			<img src="img/search.png">
+    			<input type="text" name="">
+    		</div>
+  		</div>
+	</nav>	
+</section>
+
+
+<!-------------Registration Form---------------->
+<section id= "Reg">
+<div id="regform">
+    <div id="columnl"> 
+    <img src="" id="imgc">
+    </div>
+    
+    <div id="column2" >
+    <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>ME</td>
+    <td><input type="text" name="ME" required></td>
+   </tr>
+   <tr>
+    <td>MI</td>
+    <td><input type="text" name="MI" required></td>
+   </tr>
+   <tr>
+    <td>MS</td>
+    <td><input type="text" name="MS" required></td>
+   </tr>
+   <tr>
+    <td>MA</td>
+    <td><input type="text" name="MA" required></td>
+   </tr> 
+   <tr>
+    <td>FE</td>
+    <td><input type="text" name="FE" required></td>
+   </tr>
+   <tr>
+    <td>FI</td>
+    <td><input type="text" name="FI" required></td>
+   </tr>
+   <tr>
+    <td>FS</td>
+    <td><input type="text" name="FS" required></td>
+   </tr>
+   <tr>
+    <td>FA</td>
+    <td><input type="text" name="FA" required></td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+    </div>
+    
+    <div id="column3"> 
+    <img src="" id="imgc">
+    </div>
+    
+</div>
+</section>
+
+  
+
+<!-------------Subscribe us---------------->
+<section id="subscribe">
+	<div class="container">
+		<h2>Subscribe Us</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<form class="contact-form">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Your Name">
+					</div>
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Email">
+					</div>
+					<button type="subscribe" class="btn btn-primary">Subscribe</button>
+					
+				</form>
+			</div>
+			<div class="col-md-6 contact-info">
+				<div class="follow"><b>Address: </b><i class="fa fa-map-marker"></i> Mihintale Road, Anuradhapura</div>
+
+				<div class="follow"><b>Phone: </b><i class="fa fa-phone"></i> +94 77 85 86 566</div>
+
+				<div class="follow"><b>Email: </b><i class="fa fa-envelope-o"></i> heartsdesire@gmail.com</div>
+
+				<div class="follow"><label><b>Social Media: </b></label>
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-youtube-play"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-google-plus"></i></a>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!---------------footer------------->
+<section id="footer">
+	<div class="container text-center">
+		<p>Made by Demons</p>
+	</div>
+</section>
+
+</body>
+</html>

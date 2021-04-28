@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="AboutAndLogInStyles.css">
+
+    
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="signIn image">SIGN-IN</div>
+
+        <div class="form">
+            <div class="container">
+            <form  action="loginphp4.php" method="post">
+                <label for="Email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="Email" required>
+
+                <label for="Password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="Password" required>
+
+                <button type="submit" name = "sign">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw"> <a href="forget password.html"> Forgot password?</a></span>
+                  </form>
+                  </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

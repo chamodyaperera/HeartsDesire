@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
+</head>
+
+<body>
+	<div class="loginbody">
+	<div class="frame">
+		<h2>Sign Up</h2>
+		<form method="post"  action="signupphp.php">
+			<div class="inputbox">
+				<input type="text" name="F_name" required value="">
+				<label>First Name</label>
+			</div>
+			<div class="inputbox">
+				<input type="text" name="L_name" required value="">
+				<label>Last Name</label>
+			</div>
+
+			<div class="inputbox">
+				<input type="text" name="NIC" required value="">
+				<label>NIC Number</label>
+			</div>
+
+			<div class="inputbox">
+				<input type="text" name="Email" required value="">
+				<label>Email</label>
+			</div>
+            
+            <div class="inputbox">
+				<input type="password" name="Password" required>
+				<label>Password</label>
+			</div>
+            
+            <div class="inputbox">
+				<input type="password" name="Password2" required>
+				<label>Confirm Password</label>
+			</div>
+            
+            
+			<div class="radios">
+				<label>Gender </label>
+				<input type="radio" id="male" name="Gender" value="male">
+				<label for="male">Male</label>
+				<input type="radio" id="female" name="Gender" value="female">
+				<label for="female">Female</label>
+				<input type="radio" id="other" name="Gender" value="other">
+				<label for="other">Other</label>
+			</div>
+			<div class="radios">
+				<label>Relationship Status</label>
+				<input type="radio" id="single" name="Relationship" value="single">
+				<label for="male">Single</label>
+				<input type="radio" id="married" name="Relationship" value="married">
+				<label for="female">Married</label>
+				<input type="radio" id="divorced" name="Relationship" value="divorced">
+				<label for="other">Divorced</label>
+				<input type="radio" id="seperated" name="Relationship" value="seperated">
+				<label for="other">Seperated</label>
+				<input type="radio" id="widow" name="Relationship" value="widow">
+				<label for="other">Widow/Widower</label>
+			</div>
+
+
+			<div class="inputbox">
+				<input type="text" name="Address" required>
+				<label>Address</label>
+			</div>
+            
+			<div class="inputbox">
+				<input type="text" name="Phone" required value="">
+				<label>Phone Number</label>
+			</div>
+            
+            <div class="inputbox">
+				<input type="text" name="About" required value="">
+				<label>About</label>
+			</div>
+
+
+
+			<input type="submit" name="reg_user" value="Submit">
+            
+			
+  				<input type="file" name="Image" id="Image">
+  				<!--<input type="upload" value="Upload Image" name="submit">
+			</form>-->
+		</form>
+	</div>
+	</div>
+</body>
+</html>

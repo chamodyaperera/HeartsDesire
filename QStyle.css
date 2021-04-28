@@ -1,0 +1,214 @@
+
+/*--------Question---------*/
+
+#columnl{
+	float: left;
+  	padding: 10px;
+	width:25%;
+}
+#imgg{
+	max-width:100%;
+}
+
+#column2{
+	float: left;
+  	padding: 10px;
+	width:50%;	
+}
+
+#column3{
+	float: left;
+  	padding: 10px;
+	width:25%;
+}
+
+#imgb{
+	max-width:100%;
+	top:50px;
+	padding-top:100%;
+}
+
+#imgc{
+	max-width:100%;
+	padding-top:100%;
+	
+}
+
+#qpara{
+	text-align:center;
+	font-size:24px;
+	color:#000;
+	background:#AFAFED;
+}
+ul{
+	list-style:none;
+}
+
+#qli{
+	text-align:center;
+	display:block;
+	width:100%;
+	
+}
+.radio {
+    visibility:hidden;
+}
+
+#ans{
+	display:block;
+	border:1px solid white;
+	width:100%;
+	border-radius:4px;
+	padding:7px 15px;
+	background-color:#FFF;
+	font-size:20px;
+	cursor:pointer;
+	color:#191970;
+}
+
+.radio:checked + #ans {
+    background-color:#191970;
+	color:#FFF;
+	border:#CCC;
+}
+
+#ans:hover{
+	background-color:#2A2ABB;
+	color:#FFF;
+}
+
+#qsubmit{
+	text-align:center;
+	margin-left:80%;
+	font-size:20px;
+	padding: 15px 32px;
+	background-color:#AFAFED;
+	border:#CCC;
+}
+#qsubmit:hover{
+	background-color:#2A2ABB;
+	color:#FFF;
+}
+
+#first:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*------------------Subscribe us---------------------*/
+#subscribe{
+	background: #efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color: #777;
+}
+.contact-form{
+	padding: 15px;
+}
+.form-control{
+	border-radius: 0 !important;
+	border: none !important;
+}
+::placeholder{
+	color: #999 !important;
+}
+.follow{
+	background: #fff;
+	padding: 10px;
+	margin: 15px;
+}
+#subscribe .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	background-color: #191970;/*midnight blue color*/
+	border: 1px solid #191970;
+	border-radius: 25px;
+}
+.contact-info .fa{
+	margin: 10px;
+	color: #191970;
+	font-weight: bold;
+}
+/*----------------footer--------------*/
+#footer{
+	background: #333;
+	color: #fff;
+	padding: 12px;
+}
+
+/*--------Question---------*/
+
+#columnl{
+	float: left;
+  	padding: 10px;
+	width:25%;
+}
+
+#column2{
+	float: left;
+  	padding: 10px;
+	width:50%;	
+}
+
+#column3{
+	float: left;
+  	padding: 10px;
+	width:25%;
+}
+
+#qpara{
+	text-align:center;
+	font-size:24px;
+	color:#000;
+	background:#AFAFED;
+}
+ul{
+	list-style:none;
+}
+
+#qli{
+	text-align:center;
+	display:block;
+	width:100%;
+	
+}
+.radio {
+    visibility:hidden;
+}
+
+#ans{
+	display:block;
+	border:1px solid white;
+	width:100%;
+	border-radius:4px;
+	padding:7px 15px;
+	background-color:#FFF;
+	font-size:20px;
+	cursor:pointer;
+	color:#191970;
+}
+
+.radio:checked + #ans {
+    background-color:#191970;
+	color:#FFF;
+	border:#CCC;
+}
+
+#ans:hover{
+	background-color:#2A2ABB;
+	color:#FFF;
+}
+
+#qsubmit{
+	text-align:center;
+	margin-left:80%;
+	font-size:20px;
+	padding: 15px 32px;
+	background-color:#AFAFED;
+	border:#CCC;
+}
+#qsubmit:hover{
+	background-color:#2A2ABB;
+	color:#FFF;
+}

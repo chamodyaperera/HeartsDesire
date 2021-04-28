@@ -1,0 +1,130 @@
+.forgot{
+	font-size:50px;
+	color:#FFF;
+	text-align:center;
+}
+
+.main2{
+	margin-top:100px;
+	background-color: midnightblue;
+    display: flex;
+    flex-direction: column;
+	margin-bottom:20px;
+}
+
+.body2{
+	background-color: midnightblue;
+}
+	
+.parallax {
+    background-image: url("./img/romantic.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.parallax-h {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.parallax1 {
+    background-image: url("./img/romantic.jpg");
+    min-height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* logIn page styles */
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: midnightblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.signIn {
+    margin-top: 75px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 80px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;         
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    background-image: url("./img/romantic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+
+}
+
+.form {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 75px;
+    background-color: white;
+    padding: 20px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 16px;
+}
+
+button {
+    background-color:midnightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: black;
+}
+
+
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color:midnightblue;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
